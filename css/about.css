@@ -1,0 +1,145 @@
+.hero__container {
+    background-image: url("../images/about/desktop/image-hero-whitecup.jpg");
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-bottom: 168px;
+}
+
+.hero__text h2 {
+    padding-top: 137px;
+    padding-left: 85px;
+    margin-bottom: 24px;
+    color: var(--Light-Cream);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.hero__text p {
+    padding-left: 85px;
+    color: var(--Light-Cream);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 445px;
+    opacity: 0.8;
+  padding-bottom: 137px;
+}
+
+/* MAIN START */
+.main__container {
+    display: flex;
+    align-items: center;
+}
+
+.main__container img {
+    margin-left: 96px;
+    border-radius: 10px;
+    margin-bottom: 168px;
+}
+
+.main__text  {
+  margin-left: 125px;
+  margin-top: -150px;
+}
+
+.main__text h2 {
+    color:var(--Dark-Grey-Blue);
+    font-family: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.main__text p {
+    width: 540px;   
+    color: var(--Dark-Grey-Blue);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+}
+
+/* SWXOND MAIN */
+
+.main__2 {
+    background-image: url("../images/about/desktop/bg-quality.png");
+    background-repeat: no-repeat;
+    background-position:  center;
+    display: flex;
+    margin-bottom: 168px;
+}
+
+.main__2__text h2 {
+  padding-top: 130px;
+  padding-left: 85px;
+  color: var(--Light-Cream);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+ 
+
+}
+
+.main__2__text p {
+    color: var(--Light-Cream);
+    padding-left: 85px;
+    width: 540px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+
+}
+
+
+.main__2 img {
+    padding-left: 125px;
+    padding-bottom: 150px;
+    border-radius: 8px;
+}
+
+
+.page__container h4 {
+    padding-left: 85px;
+    color: var(--Dark-Grey-Blue);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    opacity: 0.8;
+    margin-bottom: 72px;
+}
+ 
+.page__wrapper  {
+    margin-left: 85px;
+    display: flex;
+    gap: 108px;
+    justify-content: space-between;
+    margin-bottom: 168px;
+}
+
+.page__info h2 {
+  color: var(--Dark-Grey-Blue);
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+}
+
+.page__info p {
+    color: var(--Dark-Grey-Blue);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.page__info a {
+    color: var(--Dark-Grey-Blue);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-style: normal;
+ 
+}
+
+/* MAIN END */

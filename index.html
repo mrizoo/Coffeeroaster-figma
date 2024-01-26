@@ -3,52 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffeeroaster | Subscribe </title>
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/fonts.css">
-       <link rel="stylesheet" href="../css/global.css">
-       <link rel="stylesheet" href="../css/subscribe.css">
+    <title>Coffeeroaster | Home </title>
+               <!-- NORMALIZE -->
+    <link rel="stylesheet" href="./css/normalize.css">
+               <!-- FONTS -->
+    <link rel="stylesheet" href="./css/fonts.css">
+                <!-- GLOBAL CSS -->
+       <link rel="stylesheet" href="./css/global.css">
+       <link rel="stylesheet" href="./css/home.css">
 </head>
 <body>
     <!-- HEADER START -->
-    <header class="header">
-      <div class=" header__container container">
-        <!-- LOGO -->
-        <a class="site-logo__image" href="./index.html">
-          <img src="../images/shared/desktop/logo.svg" alt="">
-        </a>
-   
+      <header class="header">
+        <div class=" header__container container">
+          <!-- LOGO -->
+          <a class="site-logo__image" href="./index.html">
+            <img src="./images/shared/desktop/logo.svg" alt="">
+          </a>
+     
 
-      <!-- NAVBAR -->
-      <nav class="siteanv">
-             <ul class="sitenav__list">
-              <li class="sitenav__item">
-                <a href="../index.html" class="sitenav__link">HOME</a>
-              </li>
-              <li class="sitenav__item">
-                <a href="../pages/about.html" class="sitenav__link">ABOUT US</a>
-              </li>
-              <li class="sitenav__item">
-                <a href="../pages/subscribe.html" class="sitenav__link">CREATE YOUR PLAN</a>
-              </li>
-             </ul>
-      </nav>
-    </div>
-    </header>
-
-    <!-- HEADER END -->
-  <page class="page">
-    <div class="page__container container">
-      <div class="page__text">
-        <h2>Create a plan</h2>
-        <p>Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around the globe delivered fresh to your door.</p>
+        <!-- NAVBAR -->
+        <nav class="siteanv">
+               <ul class="sitenav__list">
+                <li class="sitenav__item">
+                  <a href="./index.html" class="sitenav__link">HOME</a>
+                </li>
+                <li class="sitenav__item">
+                  <a href="./pages/about.html" class="sitenav__link">ABOUT US</a>
+                </li>
+                <li class="sitenav__item">
+                  <a href="./pages/subscribe.html" class="sitenav__link">CREATE YOUR PLAN</a>
+                </li>
+               </ul>
+        </nav>
       </div>
-    </div>
+      </header>
+    <!-- HEADER END -->
 
-  </page>
+ <!-- HERO -->
+  <hero class="hero ">
+    <div class="hero__container container">
+    <h2>Great coffee
+      made simple.</h2>
+      <p>Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
+      <a class="hero__btn" href=""><button>Create your plan</button></a>
+    </div>
+  </hero>
 
     <!-- MAIN START -->
-     <main class="main main__container container">
+     <main class="main">
+      <div class="main__container container">
+        <div class="main__img">
+        <img src="./images/home/desktop/image-gran-espresso.png" alt="" width="256" height="193">
+        <img src="./images/home/desktop/image-planalto.png" alt=""width="256" height="193">
+        <img src="./images/home/desktop/image-piccollo.png" alt=""width="256" height="193">
+        <img src="./images/home/desktop/image-danche.png" alt=""width="256" height="193">
+      </div>
+      <div class="main__text">
+        <div class="main__text__parts">
+        <h3>Gran Espresso</h3>
+        <p>Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+      </div>
+
+      <div class="main__text__parts">
+        <h3>Planalto </h3>
+        <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
+      </div>
+
+      <div class="main__text__parts">
+        <h3>Piccollo</h3>
+        <p>Mild and smooth blend featuring notes of toasted almond and dried <br>cherry</p>
+      </div>
+
+      <div class="main__text__parts">
+        <h3>Danche</h3>
+        <p>Ethiopian hand-harvested blend densely packed with vibrant fruit <br>notes</p>
+      </div>  
+      </div>
+      </div>
+<!-- SECOND PART -->
+      <div class="main__wrapper container">
+          <div class="main__ask">
+            <h2>Why choose us?</h2>
+            <p>A large part of our role is choosing which particular coffees will be featured 
+              in our range. This means working closely with the best coffee growers to give 
+              you a more impactful experience on every level.</p>
+          </div>
+
+          <div class="main__label">
+            <div class="main__order">
+              <img class="main__order__img" src="./images/home/desktop/icon-coffee-bean.svg" alt="">
+              <h4>Best quality</h4>
+              <p>Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+            </div>
+
+            <div class="main__order">
+              <img class="main__order__img" src="./images/home/desktop/icon-gift.svg" alt="">
+              <h4>Best quality</h4>
+              <p>Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+            </div>
+
+            <div class="main__order">
+              <img class="main__order__img" src="./images/home/desktop/icon-truck.svg" alt="">
+              <h4>Best quality</h4>
+              <p>Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+            </div>
+          </div>
+      </div>
+     </main>
+    <!-- MAIN END -->
+
+    <!-- PAGE START -->
+    <page class="page">
+     <div class="page__container container">
+      <h4 class="page__title__start">How it works</h4>
+
       <div class="rings">
         <span></span>
         <span></span>
@@ -77,28 +146,29 @@
 
      
     </div>
-     </main>
-    <!-- MAIN END -->
-    
+    <a href=""><button>Create your plan </button></a>
+     </div>
+    </page>
+    <!-- PAGE END -->
 
     <!-- FOTTER START -->
-    <fotter class="fotter">
+    <footer class="fotter">
       <div class="fotter__container container">
         <div class="inner__wrapper">
           <!-- LOGO -->
           <a class="site-logo__image" href="">
-            <img src="../images/shared/desktop/logo-white.svg" alt="">
+            <img src="./images/shared/desktop/logo-white.svg" alt="">
           </a>
 
           <!-- NAVBAR -->
           <nav class="sitenav__fotter">
               <ul class="fotter__sitenav__list">
                 <li class="fotter__sitenav__item">
-                  <a href="../index.html" class="fotter__sitenav__link">HOME</a></li>
+                  <a href="./index.html" class="fotter__sitenav__link">HOME</a></li>
                 <li class="fotter__sitenav__item">
-                  <a href="../pages/about.html" class="fotter__sitenav__link">ABOUT US</a></li>
+                  <a href="./pages/about.html" class="fotter__sitenav__link">ABOUT US</a></li>
                 <li class="fotter__sitenav__item">
-                  <a href="../pages/subscribe.html" class="fotter__sitenav__link">CREATE YOUR PLAN</a> 
+                  <a href="./pages/subscribe.html" class="fotter__sitenav__link">CREATE YOUR PLAN</a> 
                 </li>
               </ul>
             </nav>
@@ -122,7 +192,7 @@
           </ul>
         </div>
       </div>
-    </fotter>
+    </footer>
     <!-- FOTTER END -->
 </body>
 </html>

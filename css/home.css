@@ -1,0 +1,238 @@
+.hero__container  {
+    background-image: url("../images/home/desktop/image-hero-coffeepress.jpg");
+    background-repeat: no-repeat;
+    margin-top: 50px;
+background-position: center;
+ border-radius: 8px;
+ margin-bottom: 167px;
+
+h2 {
+    margin-left: 86px;
+    color: #fff;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    width: 493px;
+    padding-top: 117px;
+    margin-bottom: 32px;
+}
+
+p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 445px;
+    margin-bottom: 56px;
+    margin-left: 86px;
+}
+
+}
+
+.hero__btn {    
+        margin-left: 86px;
+}
+
+button {
+   
+        font-weight: 900;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 116px;
+        width: 271px;
+        height: 56px;
+        border: 6px solid  var(--Dark-Cyan);
+        border-radius: 6px;
+        background-color:var(--Dark-Cyan) ;
+        cursor: pointer;
+        transition: all 0.5s;
+}
+
+
+
+button:hover {
+    
+    box-shadow: 0px 16px 32px 0px #66D2CF;
+    transform: scale(1.1);
+    border:#66D2CF;
+    background-color: #66D2CF;
+}
+
+.main__container {
+    background-image: url("../images/home/desktop/Group\ 13.png");
+    background-repeat: no-repeat;
+ background-position: top center;
+    
+}
+
+.main__img  {
+    display: flex;
+    padding-top: 143px;
+     align-items: center;
+    justify-content: space-evenly; 
+ }
+
+ .main__text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 201px;
+ }
+
+ .main__text p {
+    gap: 30px;  
+    text-align: center;
+    width: 255px;
+    color: var( --Dark-Grey-Blue);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+ }
+
+ .main__text h3 {
+    gap: 30px;
+    text-align: center;
+    color: var( --Dark-Grey-Blue);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+ }
+ /* MAIN SECOND PART */
+ .main__wrapper {
+    background-image: url("../images/plan/desktop/bg-steps.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+ }
+
+ .main__ask  {
+ text-align: center;
+ padding-top: 112px;
+
+ h2 {
+    color: var(--Light-Cream);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    margin-bottom: 48px;
+ }
+
+ p {
+color: var(--Light-Cream);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.8;
+width: 540px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 86px;
+
+ }
+ }
+
+ .main__label {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+ }
+ .main__order {
+    width: 350px;
+    height: 382px;
+    border-radius: 8px;
+    background-color: var(--Dark-Cyan);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+margin-bottom: 200px;
+    }
+
+ .main__order h4 {
+      color:var(--Light-Cream);
+        margin-bottom: 24px;
+         font-size: 24px;
+         font-weight: 900;
+         line-height: 32px;
+ }
+
+ .main__order p {
+    
+        width: 255px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: var(--Light-Cream);
+        text-align: center;
+
+ }
+    
+   
+ .main__order__img {
+   margin-top: 72px;
+ }
+
+.page__title__start {
+    padding-left: 65px;
+    color: var(--Grey);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    margin-bottom: 80px;
+}
+
+.rings {
+    margin-left:  65px;
+    margin-top: 25px;
+    margin-bottom: 67px;
+    width: 700px;
+    height: 2px;
+  background-color: var(--Pale-Orange);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+    span {
+       
+      width: 31px;
+      height: 31px;
+      display: inline-block;
+      border-radius: 50%;
+      border: 2px solid var(--Dark-Cyan);
+      background-color: var( --Light-Cream);
+    }
+}
+
+.page__wrapper  {
+    display: flex;
+    gap: 95px;
+    margin-left: 65px;
+}
+
+.page__title h2 {
+    color: var(--Pale-Orange);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+}
+
+.page__title h4 {
+   margin-top: -30px;
+   color: var(--Dark-Grey-Blue);
+   font-size: 32px;
+   font-weight: 900;
+   line-height: 36px;
+}
+
+.page__title {
+    width: 285px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 64px;
+}
+
+.page__container a {
+
+    margin-left: 65px;
+}
